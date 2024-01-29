@@ -1,0 +1,57 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+
+	background-image: url(fashionimage.jpg);
+	background-size:cover;
+}
+
+img {
+	float:right;
+}
+footer {
+	clear: both;
+	color:white;
+	text-align: center;
+}
+
+h1:hover{
+	color: white;
+	text-align: centre;
+	border:3px solid rgba(250, 0, 0, 0.5);
+	cursor:pointer;
+	font-size: 2px;
+}
+
+
+p {
+	color: white;
+	text-decoration:underline;
+	text-transform:lowercase;
+	line-height: 30px;
+	font-style:italic;
+	font-size:200%;
+	font-family: 'Roboto', sans-serif;
+	border:3px solid rgba(250, 0, 0, 0.5);
+	/*font-weigh:bold;*/
+}
+
+ul {
+	color:white;
+}
+a {
+	color:pink;
+}
+li {
+	list-style:none;
+	display:inline-block;
+}
+.webtext {
+	border: 4px dashed green;
+}
+
+span{
+	font-size: 2em;
+}
